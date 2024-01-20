@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import Herosection from './components/Herosection'
+import Accordian from './components/accordian/Accordian'
 import Footer from './components/Footer'
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
 <>
 <Header />
 <Herosection />
+<Accordian />
 <Footer />
 </>  )
 }

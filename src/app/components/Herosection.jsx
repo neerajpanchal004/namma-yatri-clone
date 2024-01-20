@@ -30,7 +30,7 @@ const Herosection = () => {
                  {/* section-2 */}
                  <div className='p-16 sm:flex'>
                     <div className='sm:w-1/2'>
-                        <div className=' text-4xlsm:text-5xl font-bold'>
+                        <div className=' text-4xl sm:text-5xl font-bold'>
                             <p>You pay less.</p>
                             <p>Drivers earn more.</p>
                         </div>
