@@ -9,7 +9,7 @@ const Accordianui = ({question , answer}) => {
   const [show, setShow] = useState(false)
   return ( 
     <>
-        <div className='px-5 my-3 '>
+        <div className='p-1 sm:px-5 sm:py-2 '>
           <a onClick={()=>setShow(!show)}>
           <div className='flex justify-between items-center px-5 py-3  bg-slate-400'>
           <p className='text-xl'>{question}</p>

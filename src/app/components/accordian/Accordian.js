@@ -8,9 +8,9 @@ const Accordian = () => {
     const [data,setData] = useState(Accordiandata);
   return (
     <>
-    <div className=' p-16'>
+    <div className=' p-10 sm:p-16'>
 
-        <p className=' text-5xl font-bold'>Frequently Asked Questions</p>
+        <p className=' text-4xl sm:text-5xl font-bold'>Frequently Asked Questions</p>
         <div className='border-yellow-400 border-4 w-32 mb-10'></div>
 
     { data.map ((ele)=>{
