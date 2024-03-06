@@ -7,10 +7,12 @@ import Footer from './components/Footer'
 const page = () => {
   return (
 <>
+{/* miiiii */}
 <Header />
 <Herosection />
 <Accordian />
 <Footer />
+{/* jijijij */}
 </>  )
 }
 
